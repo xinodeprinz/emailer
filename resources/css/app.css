@@ -1,0 +1,51 @@
+:root {
+    --main: black;
+    --secondary: white;
+}
+
+.card-header {
+    background-color: var(--main) !important;
+    color: var(--secondary) !important;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.form-control,
+.form-select {
+    outline: none !important;
+    border-color: var(--main) !important;
+    border-radius: 0 !important;
+    height: 3rem !important;
+    font-size: 20px !important;
+    color: var(--main) !important;
+}
+
+.form-control::placeholder {
+    color: #333 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+.btn-main {
+    background-color: var(--main) !important;
+    color: var(--secondary) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.btn:hover {
+    opacity: 0.8 !important;
+}
+
+.loading-btn {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.email-container {
+    margin-top: 40rem !important;
+    margin-bottom: 10rem !important;
+}
